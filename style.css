@@ -1,40 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    align-items: center;
     background-image: url("image/bkg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Segoe UI';
+    justify-content: center;
 }
 
 .container {
-    background-color: white;
-    margin: auto;
-    width: 1100px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
 }
 
 .members {
-    color: #484848;
     display: flex;
-    height: 60%;
+    flex-direction: row;
+    flex-flow: wrap;
+    height: auto;
     justify-content: center;
-    margin: auto;
-    position: absolute;
+    margin: 0 auto;
+    margin-top: 100px;
     text-align: center;
-    top: 100px;
-    width: 1100px;
 }
 
 .members .mem1 {
     background-color: white;
-    height: 200px;
-    line-height: 5px;
+    border-radius: 10px;
+    color: #484848;
+    line-height: 20px;
     margin: 10px;
-    padding-top: 50px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 20%;
+    padding: 5px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 220px;
 }
 
 .nama {
@@ -47,13 +55,10 @@ body {
 }
 
 .footer {
-    bottom: 100px;
     color: #ffffff;
-    line-height: 15px;
-    margin: auto;
-    position: absolute;
+    line-height: 45px;
+    margin-top: 70px;
     text-align: center;
-    width: 1100px;
 }
 
 .footer .judul {
@@ -62,7 +67,7 @@ body {
 }
 
 .footer .mk {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 a:link {
