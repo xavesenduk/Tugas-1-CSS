@@ -56,18 +56,20 @@ body {
 
 .footer {
     color: #ffffff;
-    line-height: 45px;
-    margin-top: 70px;
+    margin: 70px;
     text-align: center;
 }
 
 .footer .judul {
     font-size: 50px;
     font-weight: bold;
+    line-height: 45px;
 }
 
 .footer .mk {
     font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
 }
 
 a:link {
